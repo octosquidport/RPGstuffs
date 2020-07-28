@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://TurnBased/TurnBasedTest.gd" type="Script" id=1]
+
+[node name="TurnBasedTest" type="Node"]
+script = ExtResource( 1 )
+
+[node name="BackColor" type="ColorRect" parent="."]
+margin_right = 100.0
+margin_bottom = 100.0
+color = Color( 0.976471, 0.690196, 0.956863, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
