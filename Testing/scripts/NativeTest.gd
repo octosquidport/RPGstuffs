@@ -1,7 +1,6 @@
 extends Node
 
 onready var backColorNode = $BackColor
-onready var simpleClass = preload("res://Testing/simple/simple.gdns")
 onready var CustomBitsClass = preload("res://Testing/simple/custombits.gdns")
 var data
 

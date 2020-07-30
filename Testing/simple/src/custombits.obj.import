@@ -1,0 +1,19 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/custombits.obj-8a2ff9009e7d02109538b7768b806e55.mesh"
+
+[deps]
+
+files=[ "res://.import/custombits.obj-8a2ff9009e7d02109538b7768b806e55.mesh" ]
+
+source_file="res://Testing/simple/src/custombits.obj"
+dest_files=[ "res://.import/custombits.obj-8a2ff9009e7d02109538b7768b806e55.mesh", "res://.import/custombits.obj-8a2ff9009e7d02109538b7768b806e55.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+offset_mesh=Vector3( 0, 0, 0 )
+optimize_mesh=true

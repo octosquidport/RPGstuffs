@@ -1,6 +1,7 @@
 #include <gdnative_api_struct.gen.h>
 #include <stdlib.h>
 #include <string.h>
+#include <stdio.h>
 
 #include "custombits.h"
 
@@ -46,7 +47,7 @@ void GDN_EXPORT godot_nativescript_init(void *p_handle) {
 }
 
 void *custombits_constructor(godot_object *p_instance, void *p_method_data) {
-	printf("SIMPLE._init()\n");
+	fputs("Custombits._init()\n", stdout);
 	
 	user_data_struct *user_data = api->godot_alloc(sizeof(user_data_struct));
 	strcpy(user_data->data, "CustomBits, yay!");
