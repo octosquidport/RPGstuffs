@@ -56,7 +56,7 @@ void *custombits_constructor(godot_object *p_instance, void *p_method_data) {
 }
 
 void custombits_destructor(godot_object *p_instance, void *p_method_data, void *p_user_data) {
-	printf("SIMPLE._byebye()\n");
+	printf("CustomBits._byebye()\n");
 
 	api->godot_free(p_user_data);
 }
