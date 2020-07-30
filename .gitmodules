@@ -1,0 +1,3 @@
+[submodule "Testing/godot_headers"]
+	path = Testing/godot_headers
+	url = https://github.com/godotengine/godot_headers.git
