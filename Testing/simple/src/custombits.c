@@ -1,18 +1,11 @@
 #include <gdnative_api_struct.gen.h>
-
 #include <stdlib.h>
 #include <string.h>
 
-typedef struct user_data_struct {
-	char data[256];
-} user_data_struct;
+#include "custombits.h"
 
 const godot_gdnative_core_api_struct *api = NULL;
 const godot_gdnative_ext_nativescript_api_struct *nativescript_api = NULL;
-
-void *custombits_constructor(godot_object *p_instance, void *p_method_data);
-void custombits_destructor(godot_object *p_instance, void *p_method_data, void *p_user_data);
-godot_variant custombits_get_data(godot_object *p_instance, void *p_method_data, void *p_user_data, int p_num_args, godot_variant **p_args);
 
 void GDN_EXPORT godot_gdnative_init(godot_gdnative_init_options *p_options) {
 	api = p_options->api_struct;
