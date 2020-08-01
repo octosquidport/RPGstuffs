@@ -1,7 +1,7 @@
 extends Node
 
 onready var backColorNode = $BackColor
-onready var CustomBitsClass = preload("res://Testing/simple/custombits.gdns")
+onready var CustomBitsClass = preload("res://Testing/gdnative_modules/custombits.gdns")
 var data
 
 func _ready():

@@ -9,6 +9,6 @@ macos:
 	clang -dynamiclib custombits.os -o ../bin/osx/libcustombits.dylib -arch i386 -arch x86_64
 	
 windows: custombits.c
-	cl /Focustombits.obj /c custombits.c /nologo -EHsc -DNDEBUG /MD /I. /I..\..\godot_headers
+	cl /Focustombits.obj /c custombits.c /nologo -EHsc -DNDEBUG /MD /I. /Igodot_headers
 	link /nologo /dll /out:..\bin\win64\libcostumbits.dll /implib:..\bin\win64\libcostumbits.lib custombits.obj
 	
