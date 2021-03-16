@@ -10,5 +10,5 @@ macos:
 	
 windows: custombits.c
 	cl /Focustombits.obj /c custombits.c /nologo -EHsc -DNDEBUG /MD /I. /Igodot_headers
-	link /nologo /dll /out:..\bin\win64\libcostumbits.dll /implib:..\bin\win64\libcostumbits.lib custombits.obj
+	link /nologo /dll /out:..\bin\win64\libcustombits.dll /implib:..\bin\win64\libcustombits.lib custombits.obj
 	
